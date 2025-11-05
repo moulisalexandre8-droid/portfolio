@@ -1,0 +1,14 @@
+C'est quoi, un portfolio ? Par définition, un portfolio est un dossier constitué de documents variés, souvent visuels, permettant à quelqu'un de présenter ses réalisations, acquis et, souvent, son style créatif.
+
+-projet lycée
+-projet 1er année
+-projet inspirant
+
+
+document → diplômes différents, activités diverses
+
+exemple de code fait/exo 
+rajouter les différentes compétences acquises pendant stage
+langue étrangère etc
+
+*voir canva pour modèle* → typo, style, disposition 
