@@ -70,3 +70,42 @@ footer { text-align:center; padding:20px; background: var(--card); color: var(--
   .skills { grid-template-columns:1fr; }
 }
 .menu-mobile.active { display:flex; }
+
+/* === Responsive smartphone === */
+@media (max-width: 480px) {
+  header {
+    padding: 30px 10px;
+  }
+  header h1 {
+    font-size: 1.8rem;
+  }
+  header p {
+    font-size: 0.9rem;
+  }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .burger-menu {
+    align-self: flex-end;
+  }
+  .menu-mobile li a {
+    font-size: 0.95rem;
+    padding: 8px 10px;
+  }
+  main {
+    padding: 0 10px;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .skills {
+    grid-template-columns: 1fr;
+  }
+  footer {
+    font-size: 0.8rem;
+  }
+}
