@@ -7,6 +7,11 @@
   --radius: 10px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 * { box-sizing: border-box; margin:0; padding:0; }
 body {
   font-family: 'Poppins', sans-serif;
@@ -92,6 +97,11 @@ footer { text-align:center; padding:20px; background: var(--card); color: var(--
   .menu-mobile li a {
     font-size: 0.95rem;
     padding: 8px 10px;
+  }
+  .logo {
+    text-align: center;
+    width: 100%; /* ⬅️ Le logo prend toute la largeur pour se centrer proprement */
+    margin-bottom: 10px; /* (optionnel) espace sous le logo */
   }
   main {
     padding: 0 10px;
